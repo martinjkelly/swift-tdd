@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TodoTests/ItemListViewControllerTest.swift"
+            timestampString = "531917586.500859"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "test_LoadingView_SetsTableViewDataSource()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoTests.ItemListViewControllerTest.test_LoadingView_SetsTableViewDataSource () -&gt; ()"
+                  moduleName = "TodoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinkelly/Documents/iOS/TDD/Todo/TodoTests/ItemListViewControllerTest.swift"
+                  timestampString = "531918607.158989"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoTests.ItemListViewControllerTest.(test_LoadingView_SetsTableViewDataSource () -&gt; ()).(implicit closure #1)"
+                  moduleName = "TodoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinkelly/Documents/iOS/TDD/Todo/TodoTests/ItemListViewControllerTest.swift"
+                  timestampString = "531918607.160609"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.IDETestFailureBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TodoTests/ItemListViewControllerTest.swift"
+            timestampString = "531918290.925429"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "test_LoadingView_SetsTableViewDelegate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoTests.ItemListViewControllerTest.test_LoadingView_SetsTableViewDelegate () -&gt; ()"
+                  moduleName = "TodoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinkelly/Documents/iOS/TDD/Todo/TodoTests/ItemListViewControllerTest.swift"
+                  timestampString = "531918607.1632"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TodoTests.ItemListViewControllerTest.(test_LoadingView_SetsTableViewDelegate () -&gt; ()).(implicit closure #1)"
+                  moduleName = "TodoTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinkelly/Documents/iOS/TDD/Todo/TodoTests/ItemListViewControllerTest.swift"
+                  timestampString = "531918607.165614"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TodoTests/ItemListDataProvider.swift"
+            timestampString = "531918525.647411"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "test_NumberOfSections_IsTwo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
