@@ -21,6 +21,7 @@
 		F33A6AD21FB45C0600B716FF /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33A6AD11FB45C0600B716FF /* ItemListViewController.swift */; };
 		F33A6AD41FB45F7100B716FF /* ItemListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33A6AD31FB45F7100B716FF /* ItemListDataProvider.swift */; };
 		F33A6AD61FB465A700B716FF /* ItemListDataProviderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33A6AD51FB465A700B716FF /* ItemListDataProviderTest.swift */; };
+		F33A6AD81FB480B100B716FF /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33A6AD71FB480B100B716FF /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		F33A6AD11FB45C0600B716FF /* ItemListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		F33A6AD31FB45F7100B716FF /* ItemListDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListDataProvider.swift; sourceTree = "<group>"; };
 		F33A6AD51FB465A700B716FF /* ItemListDataProviderTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListDataProviderTest.swift; sourceTree = "<group>"; };
+		F33A6AD71FB480B100B716FF /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				F33A6ACD1FB45B4700B716FF /* Model */,
 				F33A6AD11FB45C0600B716FF /* ItemListViewController.swift */,
 				F33A6AD31FB45F7100B716FF /* ItemListDataProvider.swift */,
+				F33A6AD71FB480B100B716FF /* ItemCell.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				F33A6AC61FB3554200B716FF /* Location.swift in Sources */,
 				F33A6AA21FB33ADE00B716FF /* AppDelegate.swift in Sources */,
 				F33A6AD21FB45C0600B716FF /* ItemListViewController.swift in Sources */,
+				F33A6AD81FB480B100B716FF /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
