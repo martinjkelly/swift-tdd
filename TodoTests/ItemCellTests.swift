@@ -59,10 +59,30 @@ class ItemCellTests: XCTestCase {
     }
     
     func test_ConfigCell_SetsLocation() {
-        let location = Location(name: "Home", coordinate: CLLocationCoordinate2D(latitude: 0.0, longitude: 0.0))
+        let location = Location(name: "Home")
         cell.configCell(with: TodoItem(title: "Foo", location: location))
         
         XCTAssertEqual(cell.locationLabel.text, "Home")
+    }
+    
+    func test_Title_WhenItemIsChecked_IsStrokeThrough() {
+        let location = Location(name: "Bar")
+        let item = TodoItem(
+            title: "Foo",
+            itemDescription: nil,
+            timestamp: 1456150025,
+            location: location
+        )
+        
+        cell.configCell(with: item, checked: true)
+        
+        let attributedString = NSAttributedString(string: "Foo", attributes: [
+            NSStrikethroughStyleAttributeName: NSUnderlineStyle.styleSingle.rawValue
+        ])
+        
+        XCTAssertEqual(cell.titleLabel.attributedText, attributedString)
+        XCTAssertNil(cell.locationLabel.text)
+        XCTAssertNil(cell.dateLabel.text)
     }
 }
 
