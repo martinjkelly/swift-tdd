@@ -9,7 +9,7 @@
 import XCTest
 @testable import Todo
 
-class ItemListDataProviderTest: XCTestCase {
+class ItemListDataProviderTests: XCTestCase {
     
     var sut: ItemListDataProvider!
     var tableView: UITableView!
@@ -70,10 +70,7 @@ class ItemListDataProviderTest: XCTestCase {
     }
     
     func test_CellForRow_DequeuesCellFromTableView() {
-        let mockTableView = MockTableView()
-        mockTableView.dataSource = sut
-        mockTableView.register(ItemCell.self, forCellReuseIdentifier: "ItemCell")
-        
+        let mockTableView = MockTableView.mockTableView(withDataSource: sut)        
         sut.itemManager?.add(TodoItem(title: "Foo"))
         mockTableView.reloadData()
         
@@ -138,9 +135,21 @@ class ItemListDataProviderTest: XCTestCase {
         XCTAssertEqual(tableView.numberOfRows(inSection: 0), 0)
         XCTAssertEqual(tableView.numberOfRows(inSection: 1), 1)
     }
+    
+    func test_UncheckingAnItem_UnchecksItInTheItemManager() {
+        sut.itemManager?.add(TodoItem(title: "First"))
+        sut.itemManager?.checkItem(at: 0)
+        tableView.reloadData()
+        tableView.dataSource?.tableView?(tableView, commit: .delete, forRowAt: IndexPath(row: 0, section: 1))
+        
+        XCTAssertEqual(sut.itemManager?.toDoCount, 1)
+        XCTAssertEqual(sut.itemManager?.doneCount, 0)
+        XCTAssertEqual(tableView.numberOfRows(inSection: 0), 1)
+        XCTAssertEqual(tableView.numberOfRows(inSection: 1), 0)
+    }
 }
 
-extension ItemListDataProviderTest {
+extension ItemListDataProviderTests {
     
     class MockTableView: UITableView {
         var cellGotDequeued = false
