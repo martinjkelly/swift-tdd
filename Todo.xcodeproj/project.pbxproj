@@ -23,6 +23,8 @@
 		F33A6AD61FB465A700B716FF /* ItemListDataProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33A6AD51FB465A700B716FF /* ItemListDataProviderTests.swift */; };
 		F33A6AD81FB480B100B716FF /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33A6AD71FB480B100B716FF /* ItemCell.swift */; };
 		F33A6B061FB5A25100B716FF /* ItemCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33A6B051FB5A25100B716FF /* ItemCellTests.swift */; };
+		F33A6B081FB5B7F900B716FF /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33A6B071FB5B7F900B716FF /* DetailViewControllerTests.swift */; };
+		F33A6B0A1FB5B85E00B716FF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33A6B091FB5B85E00B716FF /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		F33A6AD51FB465A700B716FF /* ItemListDataProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListDataProviderTests.swift; sourceTree = "<group>"; };
 		F33A6AD71FB480B100B716FF /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		F33A6B051FB5A25100B716FF /* ItemCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellTests.swift; sourceTree = "<group>"; };
+		F33A6B071FB5B7F900B716FF /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTests.swift; sourceTree = "<group>"; };
+		F33A6B091FB5B85E00B716FF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				F33A6AD11FB45C0600B716FF /* ItemListViewController.swift */,
 				F33A6AD31FB45F7100B716FF /* ItemListDataProvider.swift */,
 				F33A6AD71FB480B100B716FF /* ItemCell.swift */,
+				F33A6B091FB5B85E00B716FF /* DetailViewController.swift */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 				F33A6ACF1FB45B8F00B716FF /* ItemListViewControllerTests.swift */,
 				F33A6AD51FB465A700B716FF /* ItemListDataProviderTests.swift */,
 				F33A6B051FB5A25100B716FF /* ItemCellTests.swift */,
+				F33A6B071FB5B7F900B716FF /* DetailViewControllerTests.swift */,
 			);
 			path = TodoTests;
 			sourceTree = "<group>";
@@ -254,6 +260,7 @@
 				F33A6AA21FB33ADE00B716FF /* AppDelegate.swift in Sources */,
 				F33A6AD21FB45C0600B716FF /* ItemListViewController.swift in Sources */,
 				F33A6AD81FB480B100B716FF /* ItemCell.swift in Sources */,
+				F33A6B0A1FB5B85E00B716FF /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +272,7 @@
 				F33A6ACA1FB3589C00B716FF /* ItemManagerTests.swift in Sources */,
 				F33A6AD61FB465A700B716FF /* ItemListDataProviderTests.swift in Sources */,
 				F33A6AC81FB355E000B716FF /* LocationTests.swift in Sources */,
+				F33A6B081FB5B7F900B716FF /* DetailViewControllerTests.swift in Sources */,
 				F33A6AD01FB45B8F00B716FF /* ItemListViewControllerTests.swift in Sources */,
 				F33A6AC21FB3463400B716FF /* ToDoItemTests.swift in Sources */,
 			);
